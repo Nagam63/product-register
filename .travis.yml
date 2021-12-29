@@ -2,11 +2,6 @@ sudo: required
 
 services: docker
 
-language: ruby
-rvm:
- - 2.2
- - jruby
-
 before_install: 
   - docker-compose up --build -d
   - docker login -u "$HEROKU_USERNAME" -p "$HEROKU_API_KEY" registry.heroku.com 
