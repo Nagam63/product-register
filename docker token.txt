@@ -1,8 +1,0 @@
-$ docker login -u nagam63
-
-"pass"  399077c7-b9d8-4115-83ab-b2a97662cce9
-
-"for general use"
-
-"and how to use"
-https://docs.docker.com/docker-hub/access-tokens/
